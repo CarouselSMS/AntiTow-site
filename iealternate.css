@@ -1,0 +1,92 @@
+/*
+THEME NAME: Overstand Theme based on Futurosity
+THEME URI: http://www.fakeblog.de/wordpress-theme-overstand
+DESCRIPTION: Eine Art Zeitungs-Theme für deinen Blog. Klares Design und vor allem Bold.
+VERSION: 0.01
+AUTHOR: Floyd Celluloyd
+AUTHOR URI: http://www.fakeblog.de/
+*/
+
+#wrapper {
+	height: 2000px;
+}
+#nav-above{
+	width:265px;
+	margin-left:15px;
+	}
+	
+.author-desc{
+	width:265px;
+	margin:0 0 0 15px;
+}
+
+.author-links{
+	width:265px;
+	margin-left:15px;
+}
+
+/*.left-col{
+	width:290px;
+}*/
+
+.sidebar{
+	margin-left:-20px;
+	width:150px;
+}
+
+.single .author{
+	width:265px;
+	margin-left:15px;
+}
+
+.single .excerpt{
+	width:265px;
+	margin-left:15px;
+}
+
+.single .entry-content ol,.single .entry-content ul {
+    list-style-image:url(images/pfeil_listen_ie.gif);
+}
+
+/*.single .entry-content p:first-line {
+    font-variant:small-caps;
+	text-transform:uppercase;
+}   */
+
+/*.single .entry-content p:first-letter {
+    color:black;
+	display:inline;
+	float:left;
+	font-size:40px;
+	line-height:44px;
+	margin-right:10px;
+}*/
+
+
+h2.latest{
+    /*border-top:1px solid silver;
+	font-weight:700;
+	background-color:#000000;
+	padding-left:14px;
+	text-transform:uppercase;
+	font-size:25px;*/
+	height:10px;
+}
+
+img.post-image{
+    border:1px solid silver;
+	margin:24px 10px 5px 15px;
+	padding:2px;
+	width:190px;
+}
+
+#header h1 {
+	font-size:25px;
+}
+div.three-col {
+	height: 100%;
+}
+#footer {
+	position: absolute;
+	bottom: 0;
+}
